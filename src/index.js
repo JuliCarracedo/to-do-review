@@ -32,7 +32,6 @@ const removerListener = (id) => {
 
 const editorListener = (id) => {
   const index = id.slice(5).toString();
-  console.log(index);
   const textField = document.getElementById(`${index}-description`);
   textField.innerHTML = '';
   const editField = document.createElement('input');
